@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(to right, aqua 36%, blue 64%);
+            height: 50px;
+            margin-top: 100px;
+        }
+        i{
+            font-size: 1.5rem;
+        }
+        .center{
+            background-color: #ebf7ff;
+            border-radius: 1rem;
+            height: 200px;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            box-shadow: 1px 1px gray;
+        }
+        .center ul li{
+            list-style: none;
+            padding: 10px 30px 10px 0;
+        }
+        @media only screen and (min-width: 900px) {
+        .center {
+          height: 70px;
+        }
+        .center ul{
+          display: flex;
+          flex-direction: row;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left"><i class="fa-solid fa-laptop"></i></div>
+        <div class="center">
+          <ul>
+            <li>Shoes</li>
+            <li>Glasses</li>
+            <li>T-Short</li>
+          </ul>
+        </div>
+        <div class="right">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+      </div>
+</body>
+</html>
